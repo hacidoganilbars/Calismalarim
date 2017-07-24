@@ -25,8 +25,4 @@ class SoruOnUc {
 		return (a - b);
 	}
 
-	public void kacTane() {
-
-	}
-
 }
