@@ -14,9 +14,11 @@ public class LifoFifoOdev {
 
 	public void veriGir() {
 
+		System.out.println("Verileri gir iþin bitince cikis yaz!!!");
 		while (!(girilecek.equals("cikis"))) {
 			if (girilecek.equals("cikis")) {
 				klavye.close();
+
 			}
 
 			System.out.print("Veri gir: ");
@@ -25,6 +27,7 @@ public class LifoFifoOdev {
 			lifo.push(girilecek);
 
 		}
+		lifoMuFifoMu();
 	}
 
 	public String ilkGirenIlkCikar() {
